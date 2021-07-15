@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*browser reset*/
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, em, strong, img, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	background: #74A9F7;
+}
+
+li {
+	display: inline;
+    border: 1px solid #708090;
+	border-radius: 15px;
+	background: #f03E5C;
+	margin-right: 10px;
+	padding: 10px 15px 10px 15px;
+}
+
+nav{
+	margin: -50px 0 0 450px;
+	padding-top:0px
+}
+
+a {
+  font-weight: bold;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px; /*em font sizes will be relative to this*/
+    margin: 0 auto;
+	width: 1100px;
+	padding: 50px 50px 50px 50px;
+}
+
+h1 {
+	padding-bottom: 50px;
+}
+
+#mainHeader{
+	text-align: center;
+}

@@ -22,7 +22,6 @@ li {
 
 nav{
 	margin: -50px 0 0 450px;
-	padding-top:0px
 }
 
 a {
@@ -44,3 +43,21 @@ h1 {
 #mainHeader{
 	text-align: center;
 }
+
+table{
+	margin-top: 50px;
+	width:100%;
+}
+
+th, td{
+	padding: 50px;
+}
+
+table, th, td {
+  border: 1px solid #C54ADA;
+  border-collapse: collapse;
+  border-width: thick;
+  padding: 10px; 
+}
+
+
